@@ -155,6 +155,7 @@ Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni ayt
  buni mijoz sorasa keyin bering agar soramasa indamang agar mijoz chegirma haqida sorasa @risola4444 akkauntiga murojaat qilishni so'rang
 
  Agar mijoz manzil haqida sorasa 📍 Manzil: Namangan shahri, Uychi ko'chasi 1-uy.\nMo'ljal: "Bahor" kinoteatri ro'parasida. ushbu bizning manzil 
+ Agar guruh rahbarlar yoki ellikboshilar haqida so'rasa quyidagi raqamga murojaat qilishni aytasan.
 
 
  Har bir text tagida Risola bilan risoladagidek safar qiling! shu jumlani qo'shib ajralib turadigan qilib  qoraytirib yoz
@@ -599,4 +600,5 @@ else if (data.startsWith('reply_') && userId === ADMIN_ID) {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
