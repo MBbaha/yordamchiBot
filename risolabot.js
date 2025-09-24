@@ -120,20 +120,37 @@ async function getAIResponse(prompt) {
 ⬅️ Madina ➝ Namangan
 
 📅 Parvoz sanalari:
-🗓 11-sentyabr
-🗓 18-sentyabr
-🗓 25-sentyabr
 🗓 2-oktyabr
 🗓 9-oktyabr
 🗓 16-oktyabr
 🗓 23-oktyabr
 🗓 30-oktyabr
+🗓 7-noyabr
+🗓 14-noyabr
+🗓 21-noyabr
+🗓 28-noyabr
+
+
+✈️ Parvozlar(reyslar,reslar):
+📍 To‘g‘ridan-to‘g‘ri reyslar orqali amalga oshiriladi:
+➡️ Toshkent ➝ Madina
+⬅️ Madina ➝ Toshkent
+
+📅 Parvoz sanalari:
+🗓 6-oktyabr
+🗓 13-oktyabr
+🗓 20-oktyabr
+🗓 27-oktyabr
+
+
+
+
 
 Reyslar milliy aviakompaniya orqali amalga oshiriladi
 
-Agar Toshkentdan reyslar bormi desa ha bor deysan va quyidagi telefon raqamlariga murojaat qiling deysan hamda Risola paketni taqdim qilasan 
-
-
+Agar Toshkentdan reyslar bormi desa ha bor deysan va quyidagi telefon raqamlariga murojaat qiling deysan hamda Risola va Oilaviy paketni taqdim qilasan 
+Bizdagi barcha safarlar 14 kunlik agar mijoz 14 kunlikdan boshqa paketni so'rasa quydagi raqamlarga murojaat qilishni aytasan. 
+Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni aytasan.
 
  buni mijoz sorasa keyin bering agar soramasa indamang agar mijoz chegirma haqida sorasa @risola4444 akkauntiga murojaat qilishni so'rang
 
@@ -582,3 +599,4 @@ else if (data.startsWith('reply_') && userId === ADMIN_ID) {
 
   await bot.answerCallbackQuery(query.id);
 });
+
