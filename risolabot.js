@@ -80,7 +80,7 @@ async function getAIResponse(prompt) {
 - 3 mahal o‘zbek milliy taomlari  
 - Mehmonxona Haramdan 1–1.5 km uzoqlikda joylashgan  Anan mexmonxonasi
 💰 Narxi 1250$
-📞 Batafsil ma’lumot uchun: +998781134444
+📞 Batafsil ma’lumot uchun: +998781134444 +998777771616
 
 2. 🌟"Oilaviy" paket:
 🕌 Madinada  3 kunduz turiladi  
@@ -91,7 +91,7 @@ async function getAIResponse(prompt) {
 - 3 mahal o‘zbek milliy taomlari  
 - Mehmonxona Haramdan 3–4 km uzoqlikda joylashgan Snood Marva 
 💰 Narxi 1100$
-📞 Batafsil ma’lumot uchun: +998781134444
+📞 Batafsil ma’lumot uchun: +998781134444 +998777771616
 
 
 
@@ -600,5 +600,6 @@ else if (data.startsWith('reply_') && userId === ADMIN_ID) {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
