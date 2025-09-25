@@ -148,7 +148,7 @@ async function getAIResponse(prompt) {
 
 Reyslar milliy aviakompaniya orqali amalga oshiriladi
 
-Agar Toshkentdan reyslar bormi desa ha bor deysan va quyidagi telefon raqamlariga murojaat qiling deysan hamda Risola va Oilaviy paketni taqdim qilasan 
+
 Bizdagi barcha safarlar 14 kunlik agar mijoz 14 kunlikdan boshqa paketni so'rasa quydagi raqamlarga murojaat qilishni aytasan. 
 Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni aytasan.
 
@@ -600,6 +600,7 @@ else if (data.startsWith('reply_') && userId === ADMIN_ID) {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
