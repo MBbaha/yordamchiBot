@@ -187,7 +187,6 @@ Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni ayt
 
  Agar Jamoldin domlani qachon umraga borishlari haqida so'rasa borish sanalari endi ma'lum bo'lishini aytasan Risolada ishlayabdilarmi deb so'rasa ishlayabdi deb javob qilasan 
 
- Agar Toshkentdan oilaviy paket haqida so'rasa faqat risola paket mavjud deb javob ber.
 
  Agar boshqa viloyatlarda ofisimiz borligi haqida savol berilsa hozircha Namanganda yagona bosh ofisimiz bor deb javob qil.
 
@@ -600,6 +599,7 @@ else if (data.startsWith('reply_') && userId === ADMIN_ID) {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
