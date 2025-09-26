@@ -219,7 +219,7 @@ bot.onText(/\/start/, async (msg) => {
 // 🔁 Bitta umumiy `message` handler
 bot.on('message', async (msg) => {
   const chatId = msg.chat.id;
-  const text = msg.text?.toLowerCase() || '';
+  const text = msg.text || '';
   const { id, first_name, username } = msg.from;
 
   // 👥 Foydalanuvchini bazaga qo‘shish
@@ -240,12 +240,33 @@ bot.on('message', async (msg) => {
     return;
   }
 
-  // 🔮 AI javobi (agar uzun matn bo‘lsa)
+  // 📝 Agar bu kanal kommentariyasi bo‘lsa
+  if (msg.is_topic_message && msg.message_thread_id) {
+    const aiReply = await getAIResponse(text);
+
+    // 1️⃣ Guruhda reply qilish
+    await bot.sendMessage(chatId, aiReply, {
+      reply_to_message_id: msg.message_id
+    });
+
+    // 2️⃣ Xuddi shu javobni kanal kommentariyasiga ham joylash
+    await bot.sendMessage(chatId, aiReply, {
+      message_thread_id: msg.message_thread_id
+    });
+
+    return; // boshqa logikalarga o‘tmasin
+  }
+
+  // 🔮 Oddiy AI javobi
   if (text.length > 5) {
     const aiReply = await getAIResponse(text);
-    await bot.sendMessage(chatId, aiReply);
+    await bot.sendMessage(chatId, aiReply, {
+      reply_to_message_id: msg.message_id
+    });
   } else if (!text.startsWith("/")) { // komandaga to‘sqinlik qilmaslik uchun
-    await bot.sendMessage(chatId, "🤖 Qanday yordam bera olishim mumkin?");
+    await bot.sendMessage(chatId, "🤖 Qanday yordam bera olishim mumkin?", {
+      reply_to_message_id: msg.message_id
+    });
   }
 });
 
