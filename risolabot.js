@@ -65,7 +65,7 @@ async function getAIResponse(prompt) {
 📌 Eng muhimi – barcha xizmatlar sizning tanlovingiz va istagingizga moslab taqdim etiladi.
 
 ℹ️ Batafsil ma’lumot uchun:
-📞 97 177 77 54
+📞 +998971777754
 ✈️ Telegram: @risola_premuim
 
 
@@ -325,5 +325,6 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
