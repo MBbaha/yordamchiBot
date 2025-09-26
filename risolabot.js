@@ -70,6 +70,39 @@ async function getAIResponse(prompt) {
 
 
 
+🕋 7 KUNLIK ZIYORAT PAKETLARI
+✨ Siz va oilangiz uchun qulaylik, ishonch va baraka yo‘li!
+🌟 “OILAVIY” PAKET
+🕌 Madina:
+Mehmonxona: Saraya Harmony (Haramdan 150–200 metr)
+Ovqatlanish: 2 mahal o‘zbek milliy taomlari
+🕋 Makka:
+Mehmonxona: Snood Marva (Haramdan 3–4 km)
+Ovqatlanish: 3 mahal o‘zbek milliy taomlari
+👨‍👩‍👧 Oilaviy qulayliklar, yaqin masofa va shinam muhit!
+🌟 “RISOLA” PAKET
+🕌 Madina:
+Mehmonxona: Saraya Harmony (Haramdan 150–200 metr)
+Ovqatlanish: 3 mahal o‘zbek milliy taomlari
+🕋 Makka:
+Mehmonxona: Anan Hotel (Haramdan 1–1.5 km)
+Ovqatlanish: 3 mahal o‘zbek milliy taomlari
+🚀 Qulay joylashuv, ko‘proq taom va yaqin masofa bilan maxsus imkoniyat!
+✅ Nega bizni tanlashadi?
+🕌 Haramga yaqin joylashuv
+🍲 Milliy taomlar bilan kundalik ta’minot
+👨‍👩‍👧 Oilaviy muhit va qulay xizmat
+✈️ Ishonchli tashkilot va qulay narxlar
+📞 Batafsil ma’lumot va bron uchun:
+☎️ +998781134444
+☎️ +998777771616
+
+💎 Joylar soni cheklangan!
+Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
+
+
+
+
 
 
 📦 *Bizning xizmatlarimiz:*
@@ -124,7 +157,7 @@ async function getAIResponse(prompt) {
 Reyslar milliy aviakompaniya orqali amalga oshiriladi
 
 
-Bizdagi barcha safarlar 14 kunlik agar mijoz 14 kunlikdan boshqa paketni so'rasa quydagi raqamlarga murojaat qilishni aytasan. 
+Bizdagi barcha safarlar 14 kunlik va 7 kunlik.
 Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni aytasan.
 Agar mijoz soat tagidan mexmonxona sorasa yoki vip paket haqida sorasa premuim paketni taqdim qilasan.
 
@@ -325,6 +358,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
