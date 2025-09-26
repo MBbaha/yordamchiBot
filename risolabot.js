@@ -55,6 +55,20 @@ async function getAIResponse(prompt) {
 📞 Batafsil ma’lumot uchun: +998781134444 +998777771616
 
 
+✨ PREMIUM PAKET – Siz uchun eng yuqori darajadagi qulayliklar!
+
+✅ Biznes-klass parvozlar – sayohatingizni qulay va xotirjam boshlang.
+✅ 5 yulduzli mehmonxonalar – Madina va Makkadagi eng nufuzli maskanlarda yashash imkoniyati.
+✅ Shaxsiy yo‘lboshchi – har bir qadamingizda siz bilan.
+✅ Zamonaviy transport – tez yurar poyezd yoki maxsus avtobusdan tanlov sizniki!
+
+📌 Eng muhimi – barcha xizmatlar sizning tanlovingiz va istagingizga moslab taqdim etiladi.
+
+ℹ️ Batafsil ma’lumot uchun:
+📞 97 177 77 54
+✈️ Telegram: @risola_premuim
+
+
 
 
 
@@ -310,3 +324,4 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
