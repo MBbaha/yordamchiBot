@@ -13,7 +13,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const token = process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 const ADMIN_ID = 5174150715;
-const userStates = new Map(); 
+const userStates = new Map();
 const COMPANY_LAT = 41.00491343939893;
 const COMPANY_LNG = 71.68375613581506;
 
@@ -24,7 +24,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 // 📚 AI yordamchi
 async function getAIResponse(prompt) {
-  try {
+ try {
     const response = await openai.chat.completions.create({
       model: 'gpt-4.1',
       messages: [
@@ -176,7 +176,7 @@ Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni ayt
           content: prompt
         }
       ],
-      temperature: 0.6, // 0.6 – barqaror va mantiqli javoblar uchun ideal
+      temperature: 0.6,
     });
 
     return response.choices[0].message.content;
@@ -185,7 +185,6 @@ Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni ayt
     return "❗ Texnik nosozlik yuz berdi. Keyinroq urinib ko‘ring.";
   }
 }
-
 
 // 📩 Universal xabar yuborish
 async function sendUniversalMessage(chatId, text, threadId = null, options = {}) {
@@ -245,14 +244,19 @@ bot.on('message', async (msg) => {
   if (text.length > 5) {
     const aiReply = await getAIResponse(text);
     await bot.sendMessage(chatId, aiReply);
-  } else {
+  } else if (!text.startsWith("/")) { // komandaga to‘sqinlik qilmaslik uchun
     await bot.sendMessage(chatId, "🤖 Qanday yordam bera olishim mumkin?");
   }
 });
 
 // 🟢 Kanalga yuborish komanda
-bot.onText(/\/kanal/, async () => {
-  await sendUniversalMessage("@mychannel", "📢 Salom kanal!");
+bot.onText(/\/kanal/, async (msg) => {
+  if (msg.from.id === ADMIN_ID) {
+    await sendUniversalMessage("@mychannel", "📢 Salom kanal!");
+    await bot.sendMessage(msg.chat.id, "✅ Kanalga xabar yuborildi.");
+  } else {
+    await bot.sendMessage(msg.chat.id, "❌ Sizda ruxsat yo‘q.");
+  }
 });
 
 // 🟢 Forumga yuborish komanda
