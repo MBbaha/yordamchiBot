@@ -79,6 +79,7 @@ Ovqatlanish: 2 mahal o‘zbek milliy taomlari
 🕋 Makka:
 Mehmonxona: Snood Marva (Haramdan 3–4 km)
 Ovqatlanish: 3 mahal o‘zbek milliy taomlari
+Narxi 915$
 👨‍👩‍👧 Oilaviy qulayliklar, yaqin masofa va shinam muhit!
 🌟 “RISOLA” PAKET
 🕌 Madina:
@@ -87,6 +88,7 @@ Ovqatlanish: 3 mahal o‘zbek milliy taomlari
 🕋 Makka:
 Mehmonxona: Anan Hotel (Haramdan 1–1.5 km)
 Ovqatlanish: 3 mahal o‘zbek milliy taomlari
+Narxi 975$
 🚀 Qulay joylashuv, ko‘proq taom va yaqin masofa bilan maxsus imkoniyat!
 ✅ Nega bizni tanlashadi?
 🕌 Haramga yaqin joylashuv
@@ -358,6 +360,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
