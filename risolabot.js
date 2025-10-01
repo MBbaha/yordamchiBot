@@ -152,7 +152,7 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 🗓 20-oktyabr
 🗓 27-oktyabr
 
-
+Samarqanddan 16 kunlik paket haqida ma'lumot olish uchun quyidagi raqamlarga murojaat qiling
 
 
 
@@ -360,6 +360,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
