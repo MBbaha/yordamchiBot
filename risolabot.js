@@ -130,7 +130,6 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 ⬅️ Madina ➝ Namangan
 
 📅 Parvoz sanalari:
-🗓 2-oktyabr
 🗓 9-oktyabr
 🗓 16-oktyabr
 🗓 23-oktyabr
@@ -360,6 +359,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
