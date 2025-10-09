@@ -142,13 +142,16 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 🗓 27-noyabr
 
 
+🗓 18-oktyabr, 🗓 25-oktyabr, 🗓 1-noyabr sanasidagi parvoz yo'nalishi
+➡️ Namangan ➝ Jidda
+⬅️ Jidda ➝ Namangan
+
+
 ✈️ Parvozlar(reyslar,reslar):
 📍 To‘g‘ridan-to‘g‘ri reyslar orqali amalga oshiriladi:
 ➡️ Toshkent ➝ Madina
 ⬅️ Madina ➝ Toshkent
-🗓 18-oktyabr, 🗓 25-oktyabr, 🗓 1-noyabr sanasidagi parvoz yo'nalishi
-➡️ Namangan ➝ Jidda
-⬅️ Jidda ➝ Namangan
+
 
 📅 Parvoz sanalari:
 🗓 13-oktyabr
@@ -362,6 +365,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
