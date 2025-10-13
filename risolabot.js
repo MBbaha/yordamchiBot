@@ -142,7 +142,7 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 🗓 27-noyabr
 
 
-🗓 18-oktyabr, 🗓 25-oktyabr, 🗓 1-noyabr sanasidagi parvoz yo'nalishi
+🗓 18-oktyabr,🗓 20-oktyabr 🗓 25-oktyabr,🗓 27-oktyabr 🗓 1-noyabr sanasidagi parvoz yo'nalishi
 ➡️ Namangan ➝ Jidda
 ⬅️ Jidda ➝ Namangan
 
@@ -365,6 +365,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
