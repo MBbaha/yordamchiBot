@@ -130,19 +130,19 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 ⬅️ Madina ➝ Namangan
 
 📅 Parvoz sanalari:
-🗓 16-oktyabr
-🗓 18-oktyabr
-🗓 23-oktyabr
-🗓 25-oktyabr
-🗓 30-oktyabr
-🗓 1-noyabr
 🗓 6-noyabr
+🗓 8-noyabr
+🗓 10-noyabr
 🗓 13-noyabr
-🗓 20-noyabr
+🗓 15-noyabr
+🗓 17-noyabr
+🗓 22-noyabr
 🗓 27-noyabr
+🗓 29-noyabr
 
 
-🗓 18-oktyabr,🗓 20-oktyabr 🗓 25-oktyabr,🗓 27-oktyabr 🗓 1-noyabr sanasidagi parvoz yo'nalishi
+
+🗓 8-noyabr,🗓 10-noyabr, 🗓 15-noyabr,🗓 17-noyabr, 🗓 22-noyabr,🗓 29-noyabr sanasidagi parvoz yo'nalishi
 ➡️ Namangan ➝ Jidda
 ⬅️ Jidda ➝ Namangan
 
@@ -154,7 +154,7 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 
 
 📅 Parvoz sanalari:
-🗓 27-oktyabr
+Toshkentdagi reys sanalari haqida ma'lumot olish uchun quyidagi raqamlarga murojaat qiling !
 
 
 Samarqanddan 16 kunlik paket haqida ma'lumot olish uchun quyidagi raqamlarga murojaat qiling.
@@ -186,6 +186,7 @@ Agar mijoz soat tagidan mexmonxona sorasa yoki vip paket haqida sorasa premuim p
  Agar mijoz bo'lib to'lash haqida komentariya yozsa yoki shu mavzuda nimadir sorasa indama javob bermagin
 
  Agar mijoz katta skidkada oganla mi deyman shunday deb yozsa javob berma.
+ Agar oktabr haqida oyidagi reyslar haqida so'rasa u oydagi reyslar to'lib qolganini ma'lum qil hamda noyabr oydagi reyslarni taqdim qil.
 
 
 
@@ -365,6 +366,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
