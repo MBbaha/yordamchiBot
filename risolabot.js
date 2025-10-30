@@ -151,6 +151,10 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 📍 To‘g‘ridan-to‘g‘ri reyslar orqali amalga oshiriladi:
 ➡️ Toshkent ➝ Madina
 ⬅️ Madina ➝ Toshkent
+🗓 11-noyabr,
+🗓 18-noyabr,
+🗓 25-noyabr,
+
 
 
 📅 Parvoz sanalari:
@@ -366,6 +370,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
