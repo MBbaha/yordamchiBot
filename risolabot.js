@@ -140,6 +140,8 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 🗓 27-noyabr
 🗓 29-noyabr
 
+Agar dekabr oydagi reyslar haqida so'rashsa dekabr oyining har payshanbasiga reys bor deysan !
+
 
 
 🗓 8-noyabr,🗓 10-noyabr, 🗓 15-noyabr,🗓 17-noyabr, 🗓 22-noyabr,🗓 29-noyabr sanasidagi parvoz yo'nalishi
@@ -370,6 +372,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
