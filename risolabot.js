@@ -140,7 +140,7 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 🗓 27-noyabr
 🗓 29-noyabr
 
-Agar dekabr oydagi reyslar haqida so'rashsa dekabr oyining har payshanbasiga reys bor deysan !
+Agar dekabr oydagi reyslar haqida so'rashsa dekabr oyining har payshanbasiga reys bor deysan va dekabr oyidagi barcha risola peket narxlari 1225$ bo'lganligini ma'lum qilasan dekabr oyidagi reyslarni so'rasa  !
 
 
 
@@ -372,6 +372,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
