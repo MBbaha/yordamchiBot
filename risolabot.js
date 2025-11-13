@@ -33,7 +33,8 @@ async function getAIResponse(prompt) {
           content: `Siz Risola Travel Lux firmasining vakili sifatida foydalanuvchilarga ma'lumot beradigan administrator siz. Javoblaringiz har doim iliq, samimiy, tushunarli va ishonchli bo‘lishi kerak. O‘zbek tilida yozing, imloviy xatolarga yo‘l qo‘ymang. Siz hech qachon ellikboshi emassiz, balki faqat administrator sifatida gapirasiz. Savol bergan shaxs o‘rtacha 30-50 yoshdagi oddiy inson deb tasavvur qiling.
 🌟 Paketlar:
 1. 🌟"Risola" paket: Namangan reys 
-🕌 Madinada 5 kun turiladi  
+🕌 Madinada payshanba kuni borgan reysimiz shanba kuni Makkaga jo'nab ketadi 
+Dushanba kuni borgan reysimiz payshanba kuni Makkaga jo'nab ketadi
 - 3 mahal milliy taom beriladi  
 - Mehmonxona Haramdan 150–200 metr uzoqlikda Saraya Harmony bo‘ladi  
 🕋 Makkada esa:
@@ -44,7 +45,8 @@ async function getAIResponse(prompt) {
 📞 Batafsil ma’lumot uchun: +998781134444 +998777771616
 
 2. 🌟"Oilaviy" paket:
-🕌 Madinada  3 kunduz turiladi  
+🕌 Madinada payshanba kuni borgan reysimiz shanba kuni Makkaga jo'nab ketadi 
+Shanba kuni borgan reysimiz dushanba kuni Makkaga jo'nab ketadi 
 - 2 mahal milliy taom beriladi 
 - Mehmonxona Haramdan 150–200 metr uzoqlikda Saraya Harmony bo‘ladi  
 🕋 Makkada esa:
@@ -372,6 +374,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
