@@ -132,21 +132,18 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 ⬅️ Madina ➝ Namangan
 
 📅 Parvoz sanalari:
-🗓 6-noyabr
-🗓 8-noyabr
-🗓 10-noyabr
-🗓 13-noyabr
-🗓 15-noyabr
-🗓 17-noyabr
 🗓 22-noyabr
 🗓 27-noyabr
 🗓 29-noyabr
+🗓 4-dekabr,
+🗓 11-dekabr,
+🗓 18-dekabr,
+🗓 25-dekabr,
 
 
 
 
-
-🗓 8-noyabr,🗓 10-noyabr, 🗓 15-noyabr,🗓 17-noyabr, 🗓 22-noyabr,🗓 29-noyabr sanasidagi parvoz yo'nalishi
+🗓 17-noyabr, 🗓 22-noyabr,🗓 29-noyabr,🗓 1-dekabr,🗓 6-dekabr, 🗓 8-dekabr,🗓 13-dekabr,🗓 15-dekabr,🗓 22-dekabr, 🗓 27-dekabr, 🗓 29-dekabr, sanasidagi parvoz yo'nalishi
 ➡️ Namangan ➝ Jidda
 ⬅️ Jidda ➝ Namangan
 
@@ -155,11 +152,11 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 📍 To‘g‘ridan-to‘g‘ri reyslar orqali amalga oshiriladi:
 ➡️ Toshkent ➝ Madina
 ⬅️ Madina ➝ Toshkent
-🗓 11-noyabr,
 🗓 18-noyabr,
 🗓 25-noyabr,
-
-
+🗓 2-dekabr,
+🗓 9-dekabr,
+🗓 16-dekabr,
 
 📅 Parvoz sanalari:
 Toshkentdagi reys sanalari haqida ma'lumot olish uchun quyidagi raqamlarga murojaat qiling !
@@ -202,7 +199,8 @@ Agar mijoz soat tagidan mexmonxona sorasa yoki vip paket haqida sorasa premuim p
 
  Agar bir user senga yana qayta yozsa yoki gurux yoki kanalda bir user qayta savol sorasa yokida fikr bidirsa unga yana qayta savol hamda salom berma va iloji borichia har bir usernni eslab qol va savoliga javob ber, yani bir user oldin yozgan bolsa uni savolini eslab qol yokida fikrini
 
- Agar mijoz senga kiritilgandan boshqa oylardagi parvoz sanalarini sorasa va mijoz soragan oydagi sanalar senga hali malum bolmasa har oyning payshanba kuniga reyslar bor Namangandan Madianaga togridan togri deb javob beraver.
+ Agar mijoz senga kiritilgandan boshqa oylardagi parvoz sanalarini sorasa va mijoz soragan oydagi sanalar senga hali malum bolmasa  reyslar bor Namangandan Madinaga, Namanganda Jiddaga  togridan togri deb javob beraver.
+ Agar mijoz qaytish xaqida so'rasa Namanganga qo'nadi deysan agar tumanli ob-havo bo'lmasa deb javob qilasan 
 
  Agar mijoz diniy masalada yozsa mutaxasislardan so'ralsa yaxshi bolishii tavsiya qil.
 
@@ -374,6 +372,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
