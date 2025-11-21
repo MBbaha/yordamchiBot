@@ -160,7 +160,7 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 
 📅 Parvoz sanalari:
 Toshkentdagi reys sanalari haqida ma'lumot olish uchun quyidagi raqamlarga murojaat qiling !
-Mijozlar toshkent reys haqida so'rasa risola paketdagi xizmatlarni taqdim qilasan va narxini 1270 $ deysan
+Mijozlar toshkent reys haqida so'rasa risola paketdagi xizmatlarni taqdim qilasan va narxini 1275 $ deysan
 
 
 Samarqanddan 16 kunlik paket haqida ma'lumot olish uchun quyidagi raqamlarga murojaat qiling.
@@ -373,6 +373,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
