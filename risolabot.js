@@ -150,11 +150,10 @@ Bugunoq bron qiling va oilaingiz bilan muborak safarga chiqing.
 
 ✈️ Parvozlar(reyslar,reslar):
 📍 To‘g‘ridan-to‘g‘ri reyslar orqali amalga oshiriladi:
-➡️ Toshkent ➝ Madina
-⬅️ Madina ➝ Toshkent
+➡️ Toshkent ➝ Jidda
+⬅️ Jidda ➝ Toshkent
 🗓 18-noyabr,
 🗓 25-noyabr,
-🗓 2-dekabr,
 🗓 9-dekabr,
 🗓 16-dekabr,
 
@@ -373,6 +372,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
