@@ -99,9 +99,6 @@ Shanba kuni borgan reysimiz dushanba kuni Makkaga jo'nab ketadi
 ⬅️ Madina ➝ Namangan
 
 📅 Parvoz sanalari:
-🗓 22-noyabr
-🗓 27-noyabr
-🗓 29-noyabr
 🗓 4-dekabr,
 🗓 11-dekabr,
 🗓 18-dekabr,
@@ -110,7 +107,7 @@ Shanba kuni borgan reysimiz dushanba kuni Makkaga jo'nab ketadi
 
 
 
-🗓 17-noyabr, 🗓 22-noyabr,🗓 29-noyabr,🗓 1-dekabr,🗓 6-dekabr, 🗓 8-dekabr,🗓 13-dekabr,🗓 15-dekabr,🗓 22-dekabr, 🗓 27-dekabr, 🗓 29-dekabr, sanasidagi parvoz yo'nalishi
+🗓 1-dekabr,🗓 6-dekabr, 🗓 8-dekabr,🗓 13-dekabr,🗓 15-dekabr,🗓 22-dekabr, 🗓 27-dekabr, 🗓 29-dekabr, sanasidagi parvoz yo'nalishi
 ➡️ Namangan ➝ Jidda
 ⬅️ Jidda ➝ Namangan
 
@@ -119,8 +116,6 @@ Shanba kuni borgan reysimiz dushanba kuni Makkaga jo'nab ketadi
 📍 To‘g‘ridan-to‘g‘ri reyslar orqali amalga oshiriladi:
 ➡️ Toshkent ➝ Jidda
 ⬅️ Jidda ➝ Toshkent
-🗓 18-noyabr,
-🗓 25-noyabr,
 🗓 9-dekabr,
 🗓 16-dekabr,
 
@@ -339,6 +334,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
