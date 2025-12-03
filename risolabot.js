@@ -107,21 +107,13 @@ Shanba kuni borgan reysimiz dushanba kuni Makkaga jo'nab ketadi
 
 
 
-🗓 1-dekabr,🗓 6-dekabr, 🗓 8-dekabr,🗓 13-dekabr,🗓 15-dekabr,🗓 22-dekabr, 🗓 27-dekabr, 🗓 29-dekabr, sanasidagi parvoz yo'nalishi
+🗓 6-dekabr, 🗓 8-dekabr,🗓 13-dekabr,🗓 15-dekabr,🗓 22-dekabr, 🗓 27-dekabr, 🗓 29-dekabr, sanasidagi parvoz yo'nalishi
 ➡️ Namangan ➝ Jidda
 ⬅️ Jidda ➝ Namangan
 
+Toshkentdagi reyslarimizhaqida ma`lumot olish uchun 78 113 44 44 hamda 99 220 16 16 raqamliga murojaat qilishini so'raysan.
 
-✈️ Parvozlar(reyslar,reslar):
-📍 To‘g‘ridan-to‘g‘ri reyslar orqali amalga oshiriladi:
-➡️ Toshkent ➝ Jidda
-⬅️ Jidda ➝ Toshkent
-🗓 9-dekabr,
-🗓 16-dekabr,
 
-📅 Parvoz sanalari:
-Toshkentdagi reys sanalari haqida ma'lumot olish uchun quyidagi raqamlarga murojaat qiling !
-Mijozlar toshkent reys haqida so'rasa risola paketdagi xizmatlarni taqdim qilasan va narxini 1275 $ deysan
 
 
 Samarqanddan 16 kunlik paket haqida ma'lumot olish uchun quyidagi raqamlarga murojaat qiling.
@@ -131,7 +123,7 @@ Samarqanddan 16 kunlik paket haqida ma'lumot olish uchun quyidagi raqamlarga mur
 Reyslar milliy aviakompaniya orqali amalga oshiriladi
 
 
-Bizdagi barcha safarlar 14 kunlik va 7 kunlik.
+Bizdagi barcha safarlar 14 kunlik
 Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni aytasan.
 Agar mijoz soat tagidan mexmonxona sorasa yoki vip paket haqida sorasa premuim paketni taqdim qilasan.
 
@@ -334,6 +326,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
