@@ -111,7 +111,7 @@ Shanba kuni borgan reysimiz dushanba kuni Makkaga jo'nab ketadi
 ➡️ Namangan ➝ Jidda
 ⬅️ Jidda ➝ Namangan
 
-Toshkentdagi reyslarimizhaqida ma`lumot olish uchun 78 113 44 44 hamda 99 220 16 16 raqamliga murojaat qilishini so'raysan.
+Toshkentdagi reyslarimizhaqida ma'lumot olish uchun 78 113 44 44 hamda 99 220 16 16 raqamliga murojaat qilishini so'raysan.
 
 
 
@@ -326,6 +326,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
