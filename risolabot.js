@@ -1,5 +1,5 @@
 // 📦 Kutubxonalar
-const TelegramBot = require('node-telegram-bot-api');,,,
+const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 const path = require('path');
 const mongoose = require('mongoose');
@@ -326,6 +326,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
