@@ -108,7 +108,7 @@ Reyslar milliy aviakompaniya orqali amalga oshiriladi
 
 Bizdagi barcha safarlar 14 kunlik
 Uchish va qaytish vaqtlari haqida so'rasa quyidagi raqamga murojaat qilishni aytasan.
-Agar mijoz soat tagidan mexmonxona sorasa yoki vip paket haqida sorasa premuim paketni taqdim qilasan.
+Bizda faqat standart paketlar bor deb risola va oila paketni taqdim qilasan.
 
  buni mijoz sorasa keyin bering agar soramasa indamang agar mijoz chegirma haqida sorasa @risola4444 akkauntiga murojaat qilishni so'rang
 
@@ -309,6 +309,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
