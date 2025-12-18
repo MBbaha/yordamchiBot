@@ -79,7 +79,7 @@ Shanba kuni borgan reysimiz dushanba kuni Makkaga jo'nab ketadi
 ⬅️ Madina ➝ Namangan
 
 📅 Parvoz sanalari:
-🗓 18-dekabr,
+
 🗓 25-dekabr,
 🗓 1-yanvar,
 🗓 8-yanvar,
@@ -90,7 +90,7 @@ Shanba kuni borgan reysimiz dushanba kuni Makkaga jo'nab ketadi
 
 
 
-🗓 13-dekabr,🗓 15-dekabr,🗓 22-dekabr, 🗓 27-dekabr, 🗓 29-dekabr,🗓 3-yanvar,🗓 5-yanvar,🗓 12-yanvar,🗓 10-yanvar,🗓 17-yanvar,🗓 19-yanvar,🗓 24-yanvar,🗓 26-yanvar,🗓 31-yanvar, sanasidagi parvoz yo'nalishi
+🗓 22-dekabr, 🗓 27-dekabr, 🗓 29-dekabr,🗓 3-yanvar,🗓 5-yanvar,🗓 12-yanvar,🗓 10-yanvar,🗓 17-yanvar,🗓 19-yanvar,🗓 24-yanvar,🗓 26-yanvar,🗓 31-yanvar, sanasidagi parvoz yo'nalishi
 ➡️ Namangan ➝ Jidda
 ⬅️ Jidda ➝ Namangan
 
@@ -309,6 +309,7 @@ bot.on('callback_query', async (query) => {
 
   await bot.answerCallbackQuery(query.id);
 });
+
 
 
 
